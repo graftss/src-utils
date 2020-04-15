@@ -1,13 +1,14 @@
 import request, { RequestPromise } from 'request-promise';
 
-const MAX_PAGINATION: number = 200;
+const MAX_PAGINATION = 200;
 
-const url = (endpoint: string) => `https://speedrun.com/api/v1/${endpoint}`;
+const url = (endpoint: string): string =>
+  `https://speedrun.com/api/v1/${endpoint}`;
 
 interface APIResponse {
   data: any;
   pagination: {
-    links: { rel: string, uri: string }[];
+    links: { rel: string; uri: string }[];
   };
 }
 
@@ -16,33 +17,32 @@ const withPagination = <T>(
   parser: (data: any) => Maybe<T[]>,
   results: T[] = [],
 ): Promise<Maybe<T[]>> => {
-  const makeRequest = typeof nextRequest === 'string'
-    ? () => request(nextRequest, { json: true })
-    : nextRequest;
+  const makeRequest =
+    typeof nextRequest === 'string'
+      ? () => request(nextRequest, { json: true })
+      : nextRequest;
 
-  return makeRequest()
-    .then(res => {
-      const newResults = parser(res);
-      const nextResults = newResults ? results.concat(newResults) : results;
-      const nextLink = res.pagination.links.filter(l => l.rel === 'next')[0];
+  return makeRequest().then(res => {
+    const newResults = parser(res);
+    const nextResults = newResults ? results.concat(newResults) : results;
+    const nextLink = res.pagination.links.filter(l => l.rel === 'next')[0];
 
-      return nextLink
-        ? withPagination(nextLink.uri, parser, nextResults)
-        : nextResults;
-    });
-}
+    return nextLink
+      ? withPagination(nextLink.uri, parser, nextResults)
+      : nextResults;
+  });
+};
 
 // gets a game's id from its title
 export const getGameId = (title: string): Promise<Maybe<string>> =>
-  request(url('games'), { qs: { name: title }, json: true })
-    .then(res => {
-      console.log(res.pagination);
-      for (const game of res.data) {
-        for (const key in game.names) {
-          if (game.names[key] == title) return game.id;
-        }
+  request(url('games'), { qs: { name: title }, json: true }).then(res => {
+    console.log(res.pagination);
+    for (const game of res.data) {
+      for (const key in game.names) {
+        if (game.names[key] == title) return game.id;
       }
-    });
+    }
+  });
 
 export interface Level {
   id: string;
@@ -62,14 +62,13 @@ export const getGameLevels = (id: string): Promise<Maybe<Level[]>> =>
 
 // gets a user's id from their username
 export const getUserId = (username: string): Promise<Maybe<string>> =>
-  request(url('users'), { qs: { name: username }, json: true })
-    .then(res => {
-      for (const user of res.data) {
-        for (const key in user.names) {
-          if (user.names[key] == username) return user.id;
-        }
+  request(url('users'), { qs: { name: username }, json: true }).then(res => {
+    for (const user of res.data) {
+      for (const key in user.names) {
+        if (user.names[key] == username) return user.id;
       }
-    });
+    }
+  });
 
 export interface RunTimes {
   primary: string | null;
@@ -96,8 +95,15 @@ const extractRunIL = (apiRun: any): RunIL => ({
   times: apiRun.times,
 });
 
-export const getGameILs = (userId: string, gameId: string): Promise<Maybe<RunIL[]>> =>
+export const getGameILs = (
+  userId: string,
+  gameId: string,
+): Promise<Maybe<RunIL[]>> =>
   withPagination(
-    () => request(url('runs'), { qs: { user: userId, game: gameId, max: MAX_PAGINATION }, json: true }),
-    res => res.data ? res.data.map(extractRunIL) : [],
+    () =>
+      request(url('runs'), {
+        qs: { user: userId, game: gameId, max: MAX_PAGINATION },
+        json: true,
+      }),
+    res => (res.data ? res.data.map(extractRunIL) : []),
   );

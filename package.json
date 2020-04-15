@@ -1,0 +1,32 @@
+{
+  "name": "princebot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "lodash": "^4.17.15",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.149",
+    "@types/node": "^12.12.14",
+    "@types/request-promise": "^4.1.45",
+    "@typescript-eslint/eslint-plugin": "^2.10.0",
+    "@typescript-eslint/parser": "^2.10.0",
+    "eslint": "^6.7.2",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.1",
+    "prettier": "^1.19.1",
+    "typescript": "^3.7.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint --ext .ts,.tsx --fix src/**/* || exit 0",
+    "start": "node build/index.js",
+    "test": "set NODE_ENV=development&& npm start",
+    "watch": "tsc --watch"
+  }
+}

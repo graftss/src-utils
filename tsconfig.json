@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "jsx": "react",
+    "module": "commonjs",
+    "outDir": "build",
+    "target": "es6",
+    "strictNullChecks": true,
+    "allowSyntheticDefaultImports": true
+  }
+}

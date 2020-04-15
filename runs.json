@@ -1,0 +1,1817 @@
+[
+  {
+    "id": "zg78p1vz",
+    "date": "2018-12-27T00:00:00.000Z",
+    "levelId": null,
+    "times": {
+      "primary": "PT31M58S",
+      "primary_t": 1918,
+      "realtime": "PT31M58S",
+      "realtime_t": 1918,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "z119kkjz",
+    "date": "2019-01-15T00:00:00.000Z",
+    "levelId": null,
+    "times": {
+      "primary": "PT27M11S",
+      "primary_t": 1631,
+      "realtime": "PT27M11S",
+      "realtime_t": 1631,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "m7pnk6em",
+    "date": "2019-01-19T00:00:00.000Z",
+    "levelId": null,
+    "times": {
+      "primary": "PT9H34M50S",
+      "primary_t": 34490,
+      "realtime": "PT9H34M50S",
+      "realtime_t": 34490,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "z11l65gz",
+    "date": "2018-12-18T00:00:00.000Z",
+    "levelId": null,
+    "times": {
+      "primary": "PT35M34S",
+      "primary_t": 2134,
+      "realtime": "PT35M34S",
+      "realtime_t": 2134,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "me80n10m",
+    "date": "2019-01-02T00:00:00.000Z",
+    "levelId": null,
+    "times": {
+      "primary": "PT28M28S",
+      "primary_t": 1708,
+      "realtime": "PT28M28S",
+      "realtime_t": 1708,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "y81v84wz",
+    "date": "2019-08-06T00:00:00.000Z",
+    "levelId": null,
+    "times": {
+      "primary": "PT34M37S",
+      "primary_t": 2077,
+      "realtime": "PT34M37S",
+      "realtime_t": 2077,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "zp43gxxz",
+    "date": "2019-08-07T00:00:00.000Z",
+    "levelId": null,
+    "times": {
+      "primary": "PT26M54S",
+      "primary_t": 1614,
+      "realtime": "PT26M54S",
+      "realtime_t": 1614,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "yd69plwz",
+    "date": "2019-08-12T00:00:00.000Z",
+    "levelId": null,
+    "times": {
+      "primary": "PT33M6S",
+      "primary_t": 1986,
+      "realtime": "PT33M6S",
+      "realtime_t": 1986,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "yv32d56z",
+    "date": "2019-08-13T00:00:00.000Z",
+    "levelId": "xd1xgyy9",
+    "times": {
+      "primary": "PT57S",
+      "primary_t": 57,
+      "realtime": "PT57S",
+      "realtime_t": 57,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "yw40950z",
+    "date": "2019-08-13T00:00:00.000Z",
+    "levelId": "5925xr69",
+    "times": {
+      "primary": "PT1M37S",
+      "primary_t": 97,
+      "realtime": "PT1M37S",
+      "realtime_t": 97,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "zgkx59dy",
+    "date": "2019-08-13T00:00:00.000Z",
+    "levelId": "rw63jg6w",
+    "times": {
+      "primary": "PT5M57S",
+      "primary_t": 357,
+      "realtime": "PT5M57S",
+      "realtime_t": 357,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "mre4g5dy",
+    "date": "2019-08-13T00:00:00.000Z",
+    "levelId": "owoyz539",
+    "times": {
+      "primary": "PT25S",
+      "primary_t": 25,
+      "realtime": "PT25S",
+      "realtime_t": 25,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "z1j8w8wz",
+    "date": "2019-08-13T00:00:00.000Z",
+    "levelId": null,
+    "times": {
+      "primary": "PT32M30S",
+      "primary_t": 1950,
+      "realtime": "PT32M30S",
+      "realtime_t": 1950,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "m31rnv6z",
+    "date": "2019-08-17T00:00:00.000Z",
+    "levelId": null,
+    "times": {
+      "primary": "PT31M46S",
+      "primary_t": 1906,
+      "realtime": "PT31M46S",
+      "realtime_t": 1906,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "yl0r17ny",
+    "date": "2019-09-02T00:00:00.000Z",
+    "levelId": null,
+    "times": {
+      "primary": "PT31M31S",
+      "primary_t": 1891,
+      "realtime": "PT31M31S",
+      "realtime_t": 1891,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "zgkrqpey",
+    "date": "2019-09-02T00:00:00.000Z",
+    "levelId": "ewprgo4d",
+    "times": {
+      "primary": "PT1M21S",
+      "primary_t": 81,
+      "realtime": "PT1M21S",
+      "realtime_t": 81,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "yv3onv6z",
+    "date": "2019-09-06T00:00:00.000Z",
+    "levelId": null,
+    "times": {
+      "primary": "PT25M49S",
+      "primary_t": 1549,
+      "realtime": "PT25M49S",
+      "realtime_t": 1549,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "z01o9k8y",
+    "date": "2019-09-14T00:00:00.000Z",
+    "levelId": null,
+    "times": {
+      "primary": "PT31M18S",
+      "primary_t": 1878,
+      "realtime": "PT31M18S",
+      "realtime_t": 1878,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "z01oro9y",
+    "date": "2019-09-15T00:00:00.000Z",
+    "levelId": "29v2o0xd",
+    "times": {
+      "primary": "PT2M15S",
+      "primary_t": 135,
+      "realtime": "PT2M15S",
+      "realtime_t": 135,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "y41889ny",
+    "date": "2019-09-15T00:00:00.000Z",
+    "levelId": "xd1xgyy9",
+    "times": {
+      "primary": "PT32S",
+      "primary_t": 32,
+      "realtime": "PT32S",
+      "realtime_t": 32,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "zqr00k5y",
+    "date": "2019-09-15T00:00:00.000Z",
+    "levelId": "xd0xznjd",
+    "times": {
+      "primary": "PT3M12S",
+      "primary_t": 192,
+      "realtime": "PT3M12S",
+      "realtime_t": 192,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "z01oow4y",
+    "date": "2019-09-15T00:00:00.000Z",
+    "levelId": "rw63jg6w",
+    "times": {
+      "primary": "PT4M29S",
+      "primary_t": 269,
+      "realtime": "PT4M29S",
+      "realtime_t": 269,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "y6lnn31y",
+    "date": "2019-09-15T00:00:00.000Z",
+    "levelId": "ewprgo4d",
+    "times": {
+      "primary": "PT54S",
+      "primary_t": 54,
+      "realtime": "PT54S",
+      "realtime_t": 54,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "yojrr47m",
+    "date": "2019-09-15T00:00:00.000Z",
+    "levelId": "xd4xqe89",
+    "times": {
+      "primary": "PT3M1S",
+      "primary_t": 181,
+      "realtime": "PT3M1S",
+      "realtime_t": 181,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "z01ojdoy",
+    "date": "2019-09-19T00:00:00.000Z",
+    "levelId": null,
+    "times": {
+      "primary": "PT30M51S",
+      "primary_t": 1851,
+      "realtime": "PT30M51S",
+      "realtime_t": 1851,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "zxklpj5m",
+    "date": "2019-09-23T00:00:00.000Z",
+    "levelId": null,
+    "times": {
+      "primary": "PT33M3S",
+      "primary_t": 1983,
+      "realtime": "PT33M3S",
+      "realtime_t": 1983,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "yw4jno2z",
+    "date": "2019-09-19T00:00:00.000Z",
+    "levelId": "rw63jg6w",
+    "times": {
+      "primary": "PT4M26S",
+      "primary_t": 266,
+      "realtime": "PT4M26S",
+      "realtime_t": 266,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "zqr0xkry",
+    "date": "2019-09-25T00:00:00.000Z",
+    "levelId": "y9m8lg0d",
+    "times": {
+      "primary": "PT1M4S",
+      "primary_t": 64,
+      "realtime": "PT1M4S",
+      "realtime_t": 64,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "y210l97z",
+    "date": "2019-09-25T00:00:00.000Z",
+    "levelId": "5wkpyexd",
+    "times": {
+      "primary": "PT1M39S",
+      "primary_t": 99,
+      "realtime": "PT1M39S",
+      "realtime_t": 99,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "y818ql1z",
+    "date": "2019-09-27T00:00:00.000Z",
+    "levelId": "29v2o0xd",
+    "times": {
+      "primary": "PT1M39S",
+      "primary_t": 99,
+      "realtime": "PT1M39S",
+      "realtime_t": 99,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "yv3rge6z",
+    "date": "2019-09-27T00:00:00.000Z",
+    "levelId": "5925xr69",
+    "times": {
+      "primary": "PT1M7S",
+      "primary_t": 67,
+      "realtime": "PT1M7S",
+      "realtime_t": 67,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "znrp863y",
+    "date": "2019-09-27T00:00:00.000Z",
+    "levelId": "ewprgo4d",
+    "times": {
+      "primary": "PT53S",
+      "primary_t": 53,
+      "realtime": "PT53S",
+      "realtime_t": 53,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "yj3p3x7z",
+    "date": "2019-09-28T00:00:00.000Z",
+    "levelId": "y9m8lg0d",
+    "times": {
+      "primary": "PT1M1S",
+      "primary_t": 61,
+      "realtime": "PT1M1S",
+      "realtime_t": 61,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "yj3pgqnz",
+    "date": "2019-10-01T00:00:00.000Z",
+    "levelId": "xd0xznjd",
+    "times": {
+      "primary": "PT3M6S",
+      "primary_t": 186,
+      "realtime": "PT3M6S",
+      "realtime_t": 186,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "z1jppdgz",
+    "date": "2019-10-03T00:00:00.000Z",
+    "levelId": "rw63jg6w",
+    "times": {
+      "primary": "PT4M24S",
+      "primary_t": 264,
+      "realtime": "PT4M24S",
+      "realtime_t": 264,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "znrppjvy",
+    "date": "2019-10-03T00:00:00.000Z",
+    "levelId": "rw63jg6w",
+    "times": {
+      "primary": "PT4M17S",
+      "primary_t": 257,
+      "realtime": "PT4M17S",
+      "realtime_t": 257,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "z57vq5jm",
+    "date": "2019-09-25T00:00:00.000Z",
+    "levelId": "ewprgo4d",
+    "times": {
+      "primary": "PT1M19S",
+      "primary_t": 79,
+      "realtime": "PT1M19S",
+      "realtime_t": 79,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "y418r83y",
+    "date": "2019-09-15T00:00:00.000Z",
+    "levelId": "y9m8lg0d",
+    "times": {
+      "primary": "PT1M29S",
+      "primary_t": 89,
+      "realtime": "PT1M29S",
+      "realtime_t": 89,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "y81jegnz",
+    "date": "2019-09-15T00:00:00.000Z",
+    "levelId": "5wkpyexd",
+    "times": {
+      "primary": "PT2M4S",
+      "primary_t": 124,
+      "realtime": "PT2M4S",
+      "realtime_t": 124,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "zgkd850y",
+    "date": "2019-09-20T00:00:00.000Z",
+    "levelId": "5925xr69",
+    "times": {
+      "primary": "PT1M32S",
+      "primary_t": 92,
+      "realtime": "PT1M32S",
+      "realtime_t": 92,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "znr70gly",
+    "date": "2019-09-15T00:00:00.000Z",
+    "levelId": "xd4xqe89",
+    "times": {
+      "primary": "PT3M44S",
+      "primary_t": 224,
+      "realtime": "PT3M44S",
+      "realtime_t": 224,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "zxkl45qm",
+    "date": "2019-09-12T00:00:00.000Z",
+    "levelId": "xd0xznjd",
+    "times": {
+      "primary": "PT3M39S",
+      "primary_t": 219,
+      "realtime": "PT3M39S",
+      "realtime_t": 219,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "z57d3gdm",
+    "date": "2019-08-29T00:00:00.000Z",
+    "levelId": "rw63jg6w",
+    "times": {
+      "primary": "PT5M22S",
+      "primary_t": 322,
+      "realtime": "PT5M22S",
+      "realtime_t": 322,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "znr76g7y",
+    "date": "2019-09-24T00:00:00.000Z",
+    "levelId": null,
+    "times": {
+      "primary": "PT30M50S",
+      "primary_t": 1850,
+      "realtime": "PT30M50S",
+      "realtime_t": 1850,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "y81j6pxz",
+    "date": "2019-09-19T00:00:00.000Z",
+    "levelId": "29v2o0xd",
+    "times": {
+      "primary": "PT2M12S",
+      "primary_t": 132,
+      "realtime": "PT2M12S",
+      "realtime_t": 132,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "zxk6e15m",
+    "date": "2019-08-13T00:00:00.000Z",
+    "levelId": "owoyz539",
+    "times": {
+      "primary": "PT21S",
+      "primary_t": 21,
+      "realtime": "PT21S",
+      "realtime_t": 21,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "yl07nory",
+    "date": "2019-10-04T00:00:00.000Z",
+    "levelId": "5wkpyexd",
+    "times": {
+      "primary": "PT1M38S",
+      "primary_t": 98,
+      "realtime": "PT1M38S",
+      "realtime_t": 98,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "m7q6350z",
+    "date": "2019-10-06T00:00:00.000Z",
+    "levelId": "ewprgo4d",
+    "times": {
+      "primary": "PT49S",
+      "primary_t": 49,
+      "realtime": "PT49S",
+      "realtime_t": 49,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "yojppv7m",
+    "date": "2019-10-03T00:00:00.000Z",
+    "levelId": "xd0xznjd",
+    "times": {
+      "primary": "PT2M53S",
+      "primary_t": 173,
+      "realtime": "PT2M53S",
+      "realtime_t": 173,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "mex3de9z",
+    "date": "2019-10-10T00:00:00.000Z",
+    "levelId": "5wkpyexd",
+    "times": {
+      "primary": "PT1M32S",
+      "primary_t": 92,
+      "realtime": "PT1M32S",
+      "realtime_t": 92,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "y21eql5z",
+    "date": "2019-10-14T00:00:00.000Z",
+    "levelId": "29v2o0xd",
+    "times": {
+      "primary": "PT1M37S",
+      "primary_t": 97,
+      "realtime": "PT1M37S",
+      "realtime_t": 97,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "z57xrvjm",
+    "date": "2019-10-17T00:00:00.000Z",
+    "levelId": null,
+    "times": {
+      "primary": "PT25M39S",
+      "primary_t": 1539,
+      "realtime": "PT25M39S",
+      "realtime_t": 1539,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "m31xr6gz",
+    "date": "2019-10-17T00:00:00.000Z",
+    "levelId": "xd4xqe89",
+    "times": {
+      "primary": "PT2M58S",
+      "primary_t": 178,
+      "realtime": "PT2M58S",
+      "realtime_t": 178,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "y41xr82y",
+    "date": "2019-10-17T00:00:00.000Z",
+    "levelId": "rw63jg6w",
+    "times": {
+      "primary": "PT4M12S",
+      "primary_t": 252,
+      "realtime": "PT4M12S",
+      "realtime_t": 252,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "z01ldley",
+    "date": "2019-10-22T00:00:00.000Z",
+    "levelId": "29v2o0xd",
+    "times": {
+      "primary": "PT1M36S",
+      "primary_t": 96,
+      "realtime": "PT1M36S",
+      "realtime_t": 96,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "y81xplwz",
+    "date": "2019-10-22T00:00:00.000Z",
+    "levelId": null,
+    "times": {
+      "primary": "PT25M37S",
+      "primary_t": 1537,
+      "realtime": "PT25M37S",
+      "realtime_t": 1537,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "z57eoeem",
+    "date": "2019-10-28T00:00:00.000Z",
+    "levelId": "xd1xgyy9",
+    "times": {
+      "primary": "PT30S",
+      "primary_t": 30,
+      "realtime": "PT30S",
+      "realtime_t": 30,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "m7q231wz",
+    "date": "2019-11-05T00:00:00.000Z",
+    "levelId": null,
+    "times": {
+      "primary": "PT25M35S",
+      "primary_t": 1535,
+      "realtime": "PT25M35S",
+      "realtime_t": 1535,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "yw4v219z",
+    "date": "2019-11-03T00:00:00.000Z",
+    "levelId": "5925xr69",
+    "times": {
+      "primary": "PT1M4S",
+      "primary_t": 64,
+      "realtime": "PT1M4S",
+      "realtime_t": 64,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "yj3874nz",
+    "date": "2019-11-08T00:00:00.000Z",
+    "levelId": "29v2o0xd",
+    "times": {
+      "primary": "PT1M33S",
+      "primary_t": 93,
+      "realtime": "PT1M33S",
+      "realtime_t": 93,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "yojnjljm",
+    "date": "2019-11-12T00:00:00.000Z",
+    "levelId": null,
+    "times": {
+      "primary": "PT25M14S",
+      "primary_t": 1514,
+      "realtime": "PT25M14S",
+      "realtime_t": 1514,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "yw4r912z",
+    "date": "2019-11-24T00:00:00.000Z",
+    "levelId": "rw63jg6w",
+    "times": {
+      "primary": "PT4M2S",
+      "primary_t": 242,
+      "realtime": "PT4M2S",
+      "realtime_t": 242,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "m7q3og0z",
+    "date": "2019-12-06T00:00:00.000Z",
+    "levelId": null,
+    "times": {
+      "primary": "PT25M",
+      "primary_t": 1500,
+      "realtime": "PT25M",
+      "realtime_t": 1500,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "y81k79nz",
+    "date": "2019-12-10T00:00:00.000Z",
+    "levelId": "xd4xqe89",
+    "times": {
+      "primary": "PT2M54S",
+      "primary_t": 174,
+      "realtime": "PT2M54S",
+      "realtime_t": 174,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "yv3vdjez",
+    "date": "2019-12-10T00:00:00.000Z",
+    "levelId": "xd4xqe89",
+    "times": {
+      "primary": "PT2M54S",
+      "primary_t": 174,
+      "realtime": "PT2M54S",
+      "realtime_t": 174,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "y6lq1pjy",
+    "date": "2019-11-09T00:00:00.000Z",
+    "levelId": "xd4xqe89",
+    "times": {
+      "primary": "PT2M54S",
+      "primary_t": 174,
+      "realtime": "PT2M54S",
+      "realtime_t": 174,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "y95j04ez",
+    "date": "2019-12-15T00:00:00.000Z",
+    "levelId": "ewprgo4d",
+    "times": {
+      "primary": "PT48S",
+      "primary_t": 48,
+      "realtime": "PT48S",
+      "realtime_t": 48,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "y81wr2xz",
+    "date": "2019-12-15T00:00:00.000Z",
+    "levelId": "owoyz539",
+    "times": {
+      "primary": "PT13S",
+      "primary_t": 13,
+      "realtime": "PT13S",
+      "realtime_t": 13,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "z01d7q4y",
+    "date": "2019-12-16T00:00:00.000Z",
+    "levelId": "owoyz539",
+    "times": {
+      "primary": "PT12S",
+      "primary_t": 12,
+      "realtime": "PT12S",
+      "realtime_t": 12,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "mk2pvx5m",
+    "date": "2019-12-18T00:00:00.000Z",
+    "levelId": null,
+    "times": {
+      "primary": "PT24M51S",
+      "primary_t": 1491,
+      "realtime": "PT24M51S",
+      "realtime_t": 1491,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "y81w0lnz",
+    "date": "2019-12-19T00:00:00.000Z",
+    "levelId": "xd4xqe89",
+    "times": {
+      "primary": "PT2M46S",
+      "primary_t": 166,
+      "realtime": "PT2M46S",
+      "realtime_t": 166,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "y6le6wpy",
+    "date": "2019-12-29T00:00:00.000Z",
+    "levelId": "rw63jg6w",
+    "times": {
+      "primary": "PT4M1S",
+      "primary_t": 241,
+      "realtime": "PT4M1S",
+      "realtime_t": 241,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "z57gdlgm",
+    "date": "2019-12-30T00:00:00.000Z",
+    "levelId": null,
+    "times": {
+      "primary": "PT24M41S",
+      "primary_t": 1481,
+      "realtime": "PT24M41S",
+      "realtime_t": 1481,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "mrexv8dy",
+    "date": "2020-01-02T00:00:00.000Z",
+    "levelId": "5925xr69",
+    "times": {
+      "primary": "PT1M3S",
+      "primary_t": 63,
+      "realtime": "PT1M3S",
+      "realtime_t": 63,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "zgko6ljy",
+    "date": "2020-01-04T00:00:00.000Z",
+    "levelId": "y9m8lg0d",
+    "times": {
+      "primary": "PT59S",
+      "primary_t": 59,
+      "realtime": "PT59S",
+      "realtime_t": 59,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "z0185g9y",
+    "date": "2020-01-09T00:00:00.000Z",
+    "levelId": "5wkpyexd",
+    "times": {
+      "primary": "PT1M29S",
+      "primary_t": 89,
+      "realtime": "PT1M29S",
+      "realtime_t": 89,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "m7qe8o0z",
+    "date": "2020-01-10T00:00:00.000Z",
+    "levelId": "5925xr69",
+    "times": {
+      "primary": "PT1M1S",
+      "primary_t": 61,
+      "realtime": "PT1M1S",
+      "realtime_t": 61,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "y21ne86z",
+    "date": "2020-01-12T00:00:00.000Z",
+    "levelId": "xd1xgyy9",
+    "times": {
+      "primary": "PT29S",
+      "primary_t": 29,
+      "realtime": "PT29S",
+      "realtime_t": 29,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "zgkj8jny",
+    "date": "2020-01-14T00:00:00.000Z",
+    "levelId": null,
+    "times": {
+      "primary": "PT24M35S",
+      "primary_t": 1475,
+      "realtime": "PT24M35S",
+      "realtime_t": 1475,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "z57lgv5m",
+    "date": "2020-01-15T00:00:00.000Z",
+    "levelId": null,
+    "times": {
+      "primary": "PT24M32S",
+      "primary_t": 1472,
+      "realtime": "PT24M32S",
+      "realtime_t": 1472,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "y41j0q3y",
+    "date": "2020-01-17T00:00:00.000Z",
+    "levelId": "29v2o0xd",
+    "times": {
+      "primary": "PT1M31S",
+      "primary_t": 91,
+      "realtime": "PT1M31S",
+      "realtime_t": 91,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "mk2o6k1m",
+    "date": "2020-01-18T00:00:00.000Z",
+    "levelId": null,
+    "times": {
+      "primary": "PT24M31S",
+      "primary_t": 1471,
+      "realtime": "PT24M31S",
+      "realtime_t": 1471,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "z018gley",
+    "date": "2020-01-14T00:00:00.000Z",
+    "levelId": "rw63jg6w",
+    "times": {
+      "primary": "PT4M",
+      "primary_t": 240,
+      "realtime": "PT4M",
+      "realtime_t": 240,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "y95ew4nz",
+    "date": "2020-01-27T00:00:00.000Z",
+    "levelId": null,
+    "times": {
+      "primary": "PT24M15S",
+      "primary_t": 1455,
+      "realtime": "PT24M15S",
+      "realtime_t": 1455,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "y21rd0wz",
+    "date": "2020-01-31T00:00:00.000Z",
+    "levelId": null,
+    "times": {
+      "primary": "PT24M7S",
+      "primary_t": 1447,
+      "realtime": "PT24M7S",
+      "realtime_t": 1447,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "y95w98vz",
+    "date": "2020-02-01T00:00:00.000Z",
+    "levelId": null,
+    "times": {
+      "primary": "PT30M33S",
+      "primary_t": 1833,
+      "realtime": "PT30M33S",
+      "realtime_t": 1833,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "znr5j87y",
+    "date": "2020-02-03T00:00:00.000Z",
+    "levelId": null,
+    "times": {
+      "primary": "PT30M9S",
+      "primary_t": 1809,
+      "realtime": "PT30M9S",
+      "realtime_t": 1809,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "z576pxdm",
+    "date": "2020-01-26T00:00:00.000Z",
+    "levelId": "rw63jg6w",
+    "times": {
+      "primary": "PT3M57S",
+      "primary_t": 237,
+      "realtime": "PT3M57S",
+      "realtime_t": 237,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "m312qx6z",
+    "date": "2020-02-04T00:00:00.000Z",
+    "levelId": "5925xr69",
+    "times": {
+      "primary": "PT1M26S",
+      "primary_t": 86,
+      "realtime": "PT1M26S",
+      "realtime_t": 86,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "z01kjljy",
+    "date": "2020-02-04T00:00:00.000Z",
+    "levelId": "xd0xznjd",
+    "times": {
+      "primary": "PT3M38S",
+      "primary_t": 218,
+      "realtime": "PT3M38S",
+      "realtime_t": 218,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "y81n6xwz",
+    "date": "2020-02-04T00:00:00.000Z",
+    "levelId": "rw63jg6w",
+    "times": {
+      "primary": "PT5M20S",
+      "primary_t": 320,
+      "realtime": "PT5M20S",
+      "realtime_t": 320,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "yw45r62z",
+    "date": "2020-02-04T00:00:00.000Z",
+    "levelId": "xd4xqe89",
+    "times": {
+      "primary": "PT3M43S",
+      "primary_t": 223,
+      "realtime": "PT3M43S",
+      "realtime_t": 223,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "mk2rjx3m",
+    "date": "2020-02-09T00:00:00.000Z",
+    "levelId": "5wkpyexd",
+    "times": {
+      "primary": "PT1M58S",
+      "primary_t": 118,
+      "realtime": "PT1M58S",
+      "realtime_t": 118,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "m7qvrj5z",
+    "date": "2020-02-09T00:00:00.000Z",
+    "levelId": "xd0xznjd",
+    "times": {
+      "primary": "PT3M30S",
+      "primary_t": 210,
+      "realtime": "PT3M30S",
+      "realtime_t": 210,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "m312e86z",
+    "date": "2020-02-09T00:00:00.000Z",
+    "levelId": "y9m8lg0d",
+    "times": {
+      "primary": "PT1M26S",
+      "primary_t": 86,
+      "realtime": "PT1M26S",
+      "realtime_t": 86,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "y410pvqy",
+    "date": "2020-02-09T00:00:00.000Z",
+    "levelId": "xd4xqe89",
+    "times": {
+      "primary": "PT3M38S",
+      "primary_t": 218,
+      "realtime": "PT3M38S",
+      "realtime_t": 218,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "mk2xgnxm",
+    "date": "2020-02-13T00:00:00.000Z",
+    "levelId": null,
+    "times": {
+      "primary": "PT24M4S",
+      "primary_t": 1444,
+      "realtime": "PT24M4S",
+      "realtime_t": 1444,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "zxkpgrem",
+    "date": "2020-02-13T00:00:00.000Z",
+    "levelId": "xd0xznjd",
+    "times": {
+      "primary": "PT2M52S",
+      "primary_t": 172,
+      "realtime": "PT2M52S",
+      "realtime_t": 172,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "yj3r5xnz",
+    "date": "2020-02-13T00:00:00.000Z",
+    "levelId": "xd1xgyy9",
+    "times": {
+      "primary": "PT56S",
+      "primary_t": 56,
+      "realtime": "PT56S",
+      "realtime_t": 56,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "zqrnvpxy",
+    "date": "2020-02-14T00:00:00.000Z",
+    "levelId": "5wkpyexd",
+    "times": {
+      "primary": "PT1M26S",
+      "primary_t": 86,
+      "realtime": "PT1M26S",
+      "realtime_t": 86,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "m318v14z",
+    "date": "2020-02-18T00:00:00.000Z",
+    "levelId": "5wkpyexd",
+    "times": {
+      "primary": "PT1M25S",
+      "primary_t": 85,
+      "realtime": "PT1M25S",
+      "realtime_t": 85,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "zxkp0k5m",
+    "date": "2020-02-18T00:00:00.000Z",
+    "levelId": null,
+    "times": {
+      "primary": "PT23M59S",
+      "primary_t": 1439,
+      "realtime": "PT23M59S",
+      "realtime_t": 1439,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "m7q4pd0z",
+    "date": "2020-02-21T00:00:00.000Z",
+    "levelId": "xd0xznjd",
+    "times": {
+      "primary": "PT2M50S",
+      "primary_t": 170,
+      "realtime": "PT2M50S",
+      "realtime_t": 170,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "yj30jq7z",
+    "date": "2020-03-02T00:00:00.000Z",
+    "levelId": "rw63jg6w",
+    "times": {
+      "primary": "PT3M55S",
+      "primary_t": 235,
+      "realtime": "PT3M55S",
+      "realtime_t": 235,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "m31po46z",
+    "date": "2020-03-04T00:00:00.000Z",
+    "levelId": "29v2o0xd",
+    "times": {
+      "primary": "PT1M30S",
+      "primary_t": 90,
+      "realtime": "PT1M30S",
+      "realtime_t": 90,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "y41d2p2y",
+    "date": "2020-03-06T00:00:00.000Z",
+    "levelId": "xd4xqe89",
+    "times": {
+      "primary": "PT2M45S",
+      "primary_t": 165,
+      "realtime": "PT2M45S",
+      "realtime_t": 165,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "zqrlgx1y",
+    "date": "2020-03-06T00:00:00.000Z",
+    "levelId": "y9m8lg0d",
+    "times": {
+      "primary": "PT56S",
+      "primary_t": 56,
+      "realtime": "PT56S",
+      "realtime_t": 56,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "yj305noz",
+    "date": "2020-03-07T00:00:00.000Z",
+    "levelId": "xd4xqe89",
+    "times": {
+      "primary": "PT2M42S",
+      "primary_t": 162,
+      "realtime": "PT2M42S",
+      "realtime_t": 162,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "y6l1x9qy",
+    "date": "2020-03-08T00:00:00.000Z",
+    "levelId": "ewprgo4d",
+    "times": {
+      "primary": "PT47S",
+      "primary_t": 47,
+      "realtime": "PT47S",
+      "realtime_t": 47,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "y21owq5z",
+    "date": "2020-03-10T00:00:00.000Z",
+    "levelId": "29v2o0xd",
+    "times": {
+      "primary": "PT1M29S",
+      "primary_t": 89,
+      "realtime": "PT1M29S",
+      "realtime_t": 89,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "yv3d2w8z",
+    "date": "2020-03-06T00:00:00.000Z",
+    "levelId": null,
+    "times": {
+      "primary": "PT23M27S",
+      "primary_t": 1407,
+      "realtime": "PT23M27S",
+      "realtime_t": 1407,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "zgk544ny",
+    "date": "2020-03-13T00:00:00.000Z",
+    "levelId": "xd4xqe89",
+    "times": {
+      "primary": "PT2M40S",
+      "primary_t": 160,
+      "realtime": "PT2M40S",
+      "realtime_t": 160,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "zgk4kpdy",
+    "date": "2020-03-15T00:00:00.000Z",
+    "levelId": "5925xr69",
+    "times": {
+      "primary": "PT1M",
+      "primary_t": 60,
+      "realtime": "PT1M",
+      "realtime_t": 60,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "yj3n16nz",
+    "date": "2020-03-16T00:00:00.000Z",
+    "levelId": "xd0xznjd",
+    "times": {
+      "primary": "PT2M46S",
+      "primary_t": 166,
+      "realtime": "PT2M46S",
+      "realtime_t": 166,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "m7qrw99z",
+    "date": "2020-03-17T00:00:00.000Z",
+    "levelId": "5wkpyexd",
+    "times": {
+      "primary": "PT1M23S",
+      "primary_t": 83,
+      "realtime": "PT1M23S",
+      "realtime_t": 83,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "y8158o1z",
+    "date": "2020-03-17T00:00:00.000Z",
+    "levelId": "29v2o0xd",
+    "times": {
+      "primary": "PT1M26S",
+      "primary_t": 86,
+      "realtime": "PT1M26S",
+      "realtime_t": 86,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "y21lee6z",
+    "date": "2020-03-17T00:00:00.000Z",
+    "levelId": "rw63jg6w",
+    "times": {
+      "primary": "PT3M52S",
+      "primary_t": 232,
+      "realtime": "PT3M52S",
+      "realtime_t": 232,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "yd6kp0vz",
+    "date": "2020-03-21T00:00:00.000Z",
+    "levelId": "5wkpyexd",
+    "times": {
+      "primary": "PT1M19S",
+      "primary_t": 79,
+      "realtime": "PT1M19S",
+      "realtime_t": 79,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "mk342j5z",
+    "date": "2020-04-01T00:00:00.000Z",
+    "levelId": "xd4xqe89",
+    "times": {
+      "primary": "PT2M38S",
+      "primary_t": 158,
+      "realtime": "PT2M38S",
+      "realtime_t": 158,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "m35o37wy",
+    "date": "2020-04-11T00:00:00.000Z",
+    "levelId": "xd0xznjd",
+    "times": {
+      "primary": "PT2M44S",
+      "primary_t": 164,
+      "realtime": "PT2M44S",
+      "realtime_t": 164,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  },
+  {
+    "id": "zx241okm",
+    "date": "2020-04-15T00:00:00.000Z",
+    "levelId": "xd0xznjd",
+    "times": {
+      "primary": "PT2M38S",
+      "primary_t": 158,
+      "realtime": "PT2M38S",
+      "realtime_t": 158,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    }
+  }
+]

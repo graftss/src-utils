@@ -1,21 +1,20 @@
-import { readFileSync } from 'fs';
-import { RunIL, Level } from './src';
+import { Run, Level, Category } from './src';
 
-const runs: RunIL[] = JSON.parse(readFileSync('./runs.json').toString());
-
-
-const sortByDate = (runs: RunIL[]): RunIL[] =>
+const sortByDate = (runs: Run[]): Run[] =>
   runs.sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
 
-const runTime = (run: RunIL): number => run.times.primary_t;
+const runTime = (run: Run): number => run.times.primary_t;
 
-export interface SumOfBest {
+export interface DatedTime {
   date: Date;
   value: number;
 }
 
-export const computeSumsOfBest = (runs: RunIL[], levels: Level[]): SumOfBest[] => {
-  const result: SumOfBest[] = [];
+export const computeSumsOfBest = (
+  runs: Run[],
+  levels: Level[],
+): DatedTime[] => {
+  const result: DatedTime[] = [];
   const validLevelIds = {};
   // this is a hack for testing and it sucks
   runs.forEach(r => (r.date = new Date(r.date)));
@@ -41,11 +40,25 @@ export const computeSumsOfBest = (runs: RunIL[], levels: Level[]): SumOfBest[] =
     // don't compute sum of bests until all levels have a time
     if (levelsFound < levels.length) continue;
 
-    const sob: SumOfBest = { date: run.date, value: getSOB() };
+    const sob: DatedTime = { date: run.date, value: getSOB() };
     result.push(sob);
   }
 
   return result;
+};
+
+export const computeCategoryProgression = (
+  runs: Run[],
+  category: Category,
+): DatedTime[] => {
+  const runsInCategory = runs.filter(run => run.category === category.id);
+
+  sortByDate(runsInCategory);
+
+  return runsInCategory.map(run => ({
+    date: run.date,
+    value: run.times.primary_t,
+  }));
 };
 
 const dateToExcelDate = (date: Date): string =>
@@ -59,10 +72,18 @@ const secondsToExcelTime = (seconds: number): string => {
   return [hours, minutes, seconds].join(':') + '.000';
 };
 
-export const printSumsOfBest = (sobs: SumOfBest[]): string =>
-  sobs
-    .map(({ date, value }) => {
-      return [dateToExcelDate(date), secondsToExcelTime(value)].join('\t');
-    }
-    )
+const datedTimeToExcelRow = ({ date, value }: DatedTime): string =>
+  [dateToExcelDate(date), secondsToExcelTime(value)].join('\t');
+
+export const printSumsOfBest = (runs: Run[], levels: Level[]): string =>
+  computeSumsOfBest(runs, levels)
+    .map(datedTimeToExcelRow)
+    .join('\n');
+
+export const printCategoryProgression = (
+  runs: Run[],
+  category: Category,
+): string =>
+  computeCategoryProgression(runs, category)
+    .map(datedTimeToExcelRow)
     .join('\n');

@@ -1,8 +1,8 @@
-import { readFileSync, writeFileSync } from 'fs';
+import { writeFileSync } from 'fs';
 import * as src from './src';
 import * as format from './format';
 
-const levels: src.Level[] = [
+const ilLevels: src.Level[] = [
   { id: 'owoyz539', name: 'Make a Star 1' },
   { id: 'xd1xgyy9', name: 'Make a Star 2' },
   { id: 'ewprgo4d', name: 'Make a Star 3' },
@@ -15,12 +15,28 @@ const levels: src.Level[] = [
   { id: 'rw63jg6w', name: 'Make the Moon' },
 ];
 
-const getILs = (username: string, game: string) =>
-  Promise.all([src.getUserId(username), src.getGameId(game)])
-    .then(([userId, gameId]) => src.getGameILs(userId as string, gameId as string))
+const anyCategory: src.Category = { id: '9kvy50ok', name: 'Any%', misc: false };
 
-const ils: src.RunIL[] = JSON.parse(readFileSync('data.json').toString());
+const getRuns = (username: string, game: string): Promise<Maybe<src.Run[]>> =>
+  Promise.all([
+    src.getUserId(username),
+    src.getGameId(game),
+  ]).then(([userId, gameId]) =>
+    src.getGameRuns(userId as string, gameId as string),
+  );
 
-const sobs = format.printSumsOfBest(format.computeSumsOfBest(ils, levels));
+const main = (): void => {
+  getRuns('grass', 'katamari damacy reroll')
+    .then(runs => {
+      if (runs === undefined) return console.log('error');
 
-writeFileSync('out', sobs);
+      const ilProgression = format.printSumsOfBest(runs, ilLevels);
+      writeFileSync('ils.txt', ilProgression);
+
+      const rtaProgression = format.printCategoryProgression(runs, anyCategory);
+      writeFileSync('rta.txt', rtaProgression);
+    })
+    .catch(console.log);
+};
+
+main();

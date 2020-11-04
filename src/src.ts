@@ -34,14 +34,19 @@ const withPagination = <T>(
 };
 
 // gets a game's id from its title
-export const getGameId = (title: string): Promise<Maybe<string>> =>
-  request(url('games'), { qs: { name: title }, json: true }).then(res => {
-    for (const game of res.data) {
-      for (const key in game.names) {
-        if (game.names[key] == title) return game.id;
+export const getGameId = (title: string): Promise<Maybe<string>> => {
+  title = title.toLowerCase();
+
+  return request(url('games'), { qs: { name: title }, json: true }).then(
+    res => {
+      for (const game of res.data) {
+        for (const key in game.names) {
+          if (game.names[key].toLowerCase() == title) return game.id;
+        }
       }
-    }
-  });
+    },
+  );
+};
 
 export interface Level {
   id: string;
@@ -58,6 +63,23 @@ export const getGameLevels = (id: string): Promise<Maybe<Level[]>> =>
   request(url(`games/${id}/levels`), { json: true })
     .then(res => res.data.map(extractLevel))
     .catch(() => undefined);
+
+export interface Category {
+  id: string;
+  name: string;
+  misc: boolean;
+}
+
+const extractCategory = (apiCategory: any): Category => ({
+  id: apiCategory.id,
+  name: apiCategory.name,
+  misc: apiCategory.miscellaneous,
+});
+
+export const getGameCategories = (id: string): Promise<Maybe<Category[]>> =>
+  request(url(`games/${id}/categories`), { json: true })
+    .then(res => res.data.map(extractCategory))
+    .catch(e => console.log(e));
 
 // gets a user's id from their username
 export const getUserId = (username: string): Promise<Maybe<string>> =>
@@ -80,29 +102,31 @@ export interface RunTimes {
   ingame_t: number;
 }
 
-export interface RunIL {
+export interface Run {
   id: string;
   date: Date;
+  category: string;
   levelId: string;
   times: RunTimes;
 }
 
-const extractRunIL = (apiRun: any): RunIL => ({
+const extractRun = (apiRun: any): Run => ({
   id: apiRun.id,
+  category: apiRun.category,
   date: new Date(apiRun.date),
   levelId: apiRun.level,
   times: apiRun.times,
 });
 
-export const getGameILs = (
+export const getGameRuns = (
   userId: string,
   gameId: string,
-): Promise<Maybe<RunIL[]>> =>
+): Promise<Maybe<Run[]>> =>
   withPagination(
     () =>
       request(url('runs'), {
         qs: { user: userId, game: gameId, max: MAX_PAGINATION },
         json: true,
       }),
-    res => (res.data ? res.data.map(extractRunIL) : []),
+    res => (res.data ? res.data.map(extractRun) : []),
   );

@@ -1,4 +1,4 @@
-import { writeFileSync } from 'fs';
+import { readFileSync, writeFile, writeFileSync } from 'fs';
 import * as src from './src';
 import * as format from './format';
 
@@ -25,16 +25,16 @@ const getRuns = (username: string, game: string): Promise<Maybe<src.Run[]>> =>
     src.getGameRuns(userId as string, gameId as string),
   );
 
+const mockGetRuns = (): Promise<Maybe<src.Run[]>> =>
+  Promise.resolve(JSON.parse(readFileSync('ils.txt').toString()));
+
 const main = (): void => {
-  getRuns('grass', 'katamari damacy reroll')
+  // getRuns('grass', 'katamari damacy reroll')
+  mockGetRuns()
     .then(runs => {
       if (runs === undefined) return console.log('error');
 
-      const ilProgression = format.printSumsOfBest(runs, ilLevels);
-      writeFileSync('ils.txt', ilProgression);
-
-      const rtaProgression = format.printCategoryProgression(runs, anyCategory);
-      writeFileSync('rta.txt', rtaProgression);
+      writeFileSync('progression.txt', format.printProgression(runs, anyCategory, ilLevels));
     })
     .catch(console.log);
 };

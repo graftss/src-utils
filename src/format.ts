@@ -10,11 +10,15 @@ export interface DatedTime {
   value: number;
 }
 
+export interface DatedRun extends DatedTime {
+  run: Run;
+}
+
 export const computeSumsOfBest = (
   runs: Run[],
   levels: Level[],
-): DatedTime[] => {
-  const result: DatedTime[] = [];
+): DatedRun[] => {
+  const result: DatedRun[] = [];
   const validLevelIds = {};
   // this is a hack for testing and it sucks
   runs.forEach(r => (r.date = new Date(r.date)));
@@ -40,7 +44,7 @@ export const computeSumsOfBest = (
     // don't compute sum of bests until all levels have a time
     if (levelsFound < levels.length) continue;
 
-    const sob: DatedTime = { date: run.date, value: getSOB() };
+    const sob: DatedRun = { date: run.date, value: getSOB(), run };
     result.push(sob);
   }
 
@@ -75,6 +79,18 @@ const secondsToExcelTime = (seconds: number): string => {
 const datedTimeToExcelRow = ({ date, value }: DatedTime): string =>
   [dateToExcelDate(date), secondsToExcelTime(value)].join('\t');
 
+const datedRunToExcelRow = (ilLevels: Level[]) => {
+  const levelIdToName = ilLevels.reduce((acc, level) => ({ ...acc, [level.id]: level.name }), {});
+  console.log({ levelIdToName });
+  return (datedRun: DatedRun): string => {
+    const ilTimeStr = secondsToExcelTime(datedRun.run.times.realtime_t);
+    const ilNameStr = levelIdToName[datedRun.run.levelId];
+    console.log({ ilNameStr, id: datedRun.run.levelId });
+    return [datedTimeToExcelRow(datedRun), ilNameStr, ilTimeStr].join('\t');
+  };
+};
+
+
 export const printSumsOfBest = (runs: Run[], levels: Level[]): string =>
   computeSumsOfBest(runs, levels)
     .map(datedTimeToExcelRow)
@@ -87,3 +103,15 @@ export const printCategoryProgression = (
   computeCategoryProgression(runs, category)
     .map(datedTimeToExcelRow)
     .join('\n');
+
+export const printProgression = (runs: Run[], rtaCategory: Category, ilLevels: Level[]): string => {
+  const ilSobRows = computeSumsOfBest(runs, ilLevels)
+    .map(datedRunToExcelRow(ilLevels))
+    .map(row => `${row}\tTRUE`);
+
+  const rtaRows = computeCategoryProgression(runs, rtaCategory)
+    .map(datedTimeToExcelRow)
+    .map(row => `${row}\tFALSE`);
+
+  return ilSobRows.concat(rtaRows).join('\n');
+};
